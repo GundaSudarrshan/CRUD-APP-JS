@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90dvw;
+  background-color: aqua;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 50px;
+}
+
+#posts {
+  margin-top: 10px;
+}
+
+#posts > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+i:hover {
+  cursor: pointer;
+}
