@@ -8,8 +8,13 @@
   width: 90dvw;
   background-color: aqua;
   display: flex;
-  /* justify-content: space-between; */
-  gap: 50px;
+  /* justify-content: space-evenly; */
+  /* gap: 50px; */
+}
+
+.right {
+  width: 300px;
+  margin-left: 200px;
 }
 
 #posts {
@@ -17,6 +22,8 @@
 }
 
 #posts > div {
+  /* height: 10px; */
+  margin: 10px 0;
   display: flex;
   justify-content: space-between;
 }
